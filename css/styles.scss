@@ -8,6 +8,8 @@ $shadow: -19px -1px 22px -15px rgba(0, 0, 0, 0.30);
 
 $darkShadow: -19px -1px 22px -15px rgb(255, 255, 255, 0.30);
 
+$background: #5c5c5c;
+
 /*------------MIXINS------------*/
 
 @mixin gridDisplay ($min, $max) {
@@ -38,7 +40,7 @@ body {
     width: 100%;
     font-size: 15px;
     font-weight: 300;
-    color: #999;
+    color: $dark;
     font-family: "Lexend", Arial, Helvetica, sans-serif;
     margin: 0;
 }
@@ -48,7 +50,7 @@ body {
 header {
     width: $fullWidth;
     padding: 20px 50px;
-    background-color: #5c5c5c;
+    background-color: $background;
     box-sizing: border-box;
     @include flexDisplay(space-between, center);
 
@@ -82,14 +84,14 @@ header {
         font-size: 30px;
         font-weight: 600;
         margin-bottom: 10px;
-        color: #5c5c5c;
+        color: $background;
     }
         
     p {
         width: $fullWidth;
         margin: 0 auto;
         font-size: 25px;
-        color: #5c5c5c;
+        color: $background;
     }
 }
 
