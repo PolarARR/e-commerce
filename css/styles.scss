@@ -2,11 +2,15 @@ $fullWidth: 100%;
 
 $default: #ffffff;
 
+$darkBackground: #333;
+
 $dark: #999;
 
 $shadow: -19px -1px 22px -15px rgba(0, 0, 0, 0.30);
 
 $darkShadow: -19px -1px 22px -15px rgb(255, 255, 255, 0.30);
+
+$background: #5c5c5c;
 
 /*------------MIXINS------------*/
 
@@ -38,7 +42,7 @@ body {
     width: 100%;
     font-size: 15px;
     font-weight: 300;
-    color: #999;
+    color: $dark;
     font-family: "Lexend", Arial, Helvetica, sans-serif;
     margin: 0;
 }
@@ -48,13 +52,13 @@ body {
 header {
     width: $fullWidth;
     padding: 20px 50px;
-    background-color: #5c5c5c;
+    background-color: $background;
     box-sizing: border-box;
     @include flexDisplay(space-between, center);
 
     img {
         &.header__img {
-            width: 100px;
+            width: 90px;
         }
         
         &.header__img--icon {
@@ -74,20 +78,22 @@ header {
     background-size:cover;
     margin: 0;
     color: $default;
-    background-position-y: 40%;
+    background-position-y: 15%;
     height: 100%;
 
     h2 {
         width: $fullWidth;
-        font-size: 30px;
+        font-size: 35px;
         font-weight: 600;
         margin-bottom: 10px;
+        color: $background;
     }
         
     p {
         width: $fullWidth;
         margin: 0 auto;
-        font-size: 25px;
+        font-size: 30px;
+        color: $background;
     }
 }
 
@@ -106,13 +112,13 @@ header {
     }
         
     img {
-        width: 200px;
+        width: 150px;
         margin-bottom: 15px;
     }
         
     h3 {
         font-weight: 500;
-        font-size: 17px;
+        font-size: 20px;
         margin: 5px;
         @extend %fontStyleProducts;
     }
@@ -213,7 +219,7 @@ header {
         padding: 30px 0;
 
         h2 {
-            font-size: 18px;
+            font-size: 19px;
         }
     
         p {
@@ -277,12 +283,12 @@ header {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: $dark;
+        background-color: $darkBackground;
         color: $default;
     }
 
     .cart {
-        background-color: $dark;
+        background-color: $darkBackground;
         box-shadow: $darkShadow;
 
         div {
