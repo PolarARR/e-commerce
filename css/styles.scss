@@ -2,6 +2,8 @@ $fullWidth: 100%;
 
 $default: #ffffff;
 
+$darkBackground: #333;
+
 $dark: #999;
 
 $shadow: -19px -1px 22px -15px rgba(0, 0, 0, 0.30);
@@ -281,12 +283,12 @@ header {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: $dark;
+        background-color: $darkBackground;
         color: $default;
     }
 
     .cart {
-        background-color: $dark;
+        background-color: $darkBackground;
         box-shadow: $darkShadow;
 
         div {

@@ -197,11 +197,11 @@ header img.header__img--icon {
 /*DARK MODE*/
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #999;
+    background-color: #333;
     color: #ffffff;
   }
   .cart {
-    background-color: #999;
+    background-color: #333;
     box-shadow: -19px -1px 22px -15px rgba(255, 255, 255, 0.3);
   }
   .cart div {
