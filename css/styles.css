@@ -25,7 +25,7 @@ header {
   align-items: center;
 }
 header img.header__img {
-  width: 100px;
+  width: 90px;
 }
 header img.header__img--icon {
   width: 35px;
@@ -42,7 +42,7 @@ header img.header__img--icon {
   background-size: cover;
   margin: 0;
   color: #ffffff;
-  background-position-y: 40%;
+  background-position-y: 15%;
   height: 100%;
 }
 .banner h2 {
@@ -50,11 +50,13 @@ header img.header__img--icon {
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 10px;
+  color: #5c5c5c;
 }
 .banner p {
   width: 100%;
   margin: 0 auto;
   font-size: 25px;
+  color: #5c5c5c;
 }
 
 /*------------.products------------*/
@@ -71,7 +73,7 @@ header img.header__img--icon {
   text-align: center;
 }
 .products img {
-  width: 200px;
+  width: 150px;
   margin-bottom: 15px;
 }
 .products h3 {

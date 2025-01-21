@@ -54,7 +54,7 @@ header {
 
     img {
         &.header__img {
-            width: 100px;
+            width: 90px;
         }
         
         &.header__img--icon {
@@ -74,7 +74,7 @@ header {
     background-size:cover;
     margin: 0;
     color: $default;
-    background-position-y: 40%;
+    background-position-y: 15%;
     height: 100%;
 
     h2 {
@@ -82,12 +82,14 @@ header {
         font-size: 30px;
         font-weight: 600;
         margin-bottom: 10px;
+        color: #5c5c5c;
     }
         
     p {
         width: $fullWidth;
         margin: 0 auto;
         font-size: 25px;
+        color: #5c5c5c;
     }
 }
 
@@ -106,7 +108,7 @@ header {
     }
         
     img {
-        width: 200px;
+        width: 150px;
         margin-bottom: 15px;
     }
         
