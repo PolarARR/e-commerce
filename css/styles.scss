@@ -81,7 +81,7 @@ header {
 
     h2 {
         width: $fullWidth;
-        font-size: 30px;
+        font-size: 35px;
         font-weight: 600;
         margin-bottom: 10px;
         color: $background;
@@ -90,7 +90,7 @@ header {
     p {
         width: $fullWidth;
         margin: 0 auto;
-        font-size: 25px;
+        font-size: 30px;
         color: $background;
     }
 }
@@ -116,7 +116,7 @@ header {
         
     h3 {
         font-weight: 500;
-        font-size: 17px;
+        font-size: 20px;
         margin: 5px;
         @extend %fontStyleProducts;
     }
@@ -217,7 +217,7 @@ header {
         padding: 30px 0;
 
         h2 {
-            font-size: 18px;
+            font-size: 19px;
         }
     
         p {
